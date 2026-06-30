@@ -2,7 +2,7 @@
 -- BYBA HUB v4.0
 -- Создатель: Byba (@whygoldzy)
 -- Telegram канал: @BybaAL
--- Бот для ключей: @BybaHub_bot
+-- Бот для ключей: @BybaHube_bot
 -- ==========================================
 
 local Players = game:GetService("Players")
@@ -159,7 +159,7 @@ StatusText.TextSize = 11
 StatusText.Text = "TG: @whygoldzy"
 
 GetKeyBtn.MouseButton1Click:Connect(function()
-    local botLink = "https://t.me/BybaHub_bot"
+    local botLink = "https://t.me/BybaHube_bot"
     if setclipboard then
         pcall(function() setclipboard(botLink) end)
         StatusText.Text = "✅ Ссылка на бота скопирована!"
@@ -924,5 +924,5 @@ function setupMainMenu()
     print("✅ BYBA HUB v4.0 - ЗАГРУЖЕН!")
     print("📌 Создатель: Byba (@whygoldzy)")
     print("📌 Канал: @BybaAL")
-    print("📌 Бот: @BybaHub_bot")
+    print("📌 Бот: @BybaHube_bot")
 end
